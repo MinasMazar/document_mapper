@@ -15,10 +15,13 @@ Gem::Specification.new do |s|
   s.files            += Dir.glob("test/**/*")
 
   s.specification_version = 3
-  s.add_runtime_dependency('activesupport', '~> 3.1')
+  # s.add_runtime_dependency('activesupport', '~> 3.1')
+  s.add_runtime_dependency('activesupport')
   s.add_runtime_dependency('activemodel', '~> 3.1')
+  # s.add_runtime_dependency('activemodel')
   s.add_runtime_dependency('rake', '~> 0.9.0')
-  s.add_runtime_dependency('tilt', '~> 1.3.0')
+  # s.add_runtime_dependency('tilt', '~> 1.3.0')
+  s.add_runtime_dependency('tilt')
   s.add_development_dependency('RedCloth', '~> 4.2.0')
   s.add_development_dependency('minitest', '~> 2.6.0')
 
